@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myTestClassIntent2", "myTes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myCallbackfunction_test4", "myCallbackfunction_test4\myCallbackfunction_test4.vcxproj", "{44BE3FDE-F0E3-4EE8-809F-F5FB3E27CED8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myCallBackFunction_test5", "myCallBackFunction_test5\myCallBackFunction_test5.vcxproj", "{AC661B27-214E-470B-8023-191427B09709}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{44BE3FDE-F0E3-4EE8-809F-F5FB3E27CED8}.Release|x64.Build.0 = Release|x64
 		{44BE3FDE-F0E3-4EE8-809F-F5FB3E27CED8}.Release|x86.ActiveCfg = Release|Win32
 		{44BE3FDE-F0E3-4EE8-809F-F5FB3E27CED8}.Release|x86.Build.0 = Release|Win32
+		{AC661B27-214E-470B-8023-191427B09709}.Debug|x64.ActiveCfg = Debug|x64
+		{AC661B27-214E-470B-8023-191427B09709}.Debug|x64.Build.0 = Debug|x64
+		{AC661B27-214E-470B-8023-191427B09709}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC661B27-214E-470B-8023-191427B09709}.Debug|x86.Build.0 = Debug|Win32
+		{AC661B27-214E-470B-8023-191427B09709}.Release|x64.ActiveCfg = Release|x64
+		{AC661B27-214E-470B-8023-191427B09709}.Release|x64.Build.0 = Release|x64
+		{AC661B27-214E-470B-8023-191427B09709}.Release|x86.ActiveCfg = Release|Win32
+		{AC661B27-214E-470B-8023-191427B09709}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
