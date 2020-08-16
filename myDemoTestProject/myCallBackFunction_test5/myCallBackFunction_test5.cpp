@@ -31,6 +31,8 @@ public:
 		cout << "this is class A of function2" << endl;
 	}
 
+	
+
 };
 
 
@@ -46,6 +48,21 @@ public:
 	{
 		return a > b;
 	}
+
+	bool stepToSelect(std::string  data) 
+	{
+		if (data == "sever")
+		{
+			cout << "data come from server" << endl;
+		}
+		else if( data == "client")
+ 		{
+			cout << "data come from client" << endl;
+		}
+		return true;
+	}
+
+	std::string printdata;
 };
 
 
