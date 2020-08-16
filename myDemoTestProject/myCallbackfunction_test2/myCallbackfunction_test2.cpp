@@ -40,7 +40,6 @@ class Server {
 public:
 	void callback(std::shared_ptr<Client> &p) {
 		std::cout << "Server callback, id: " << p->getId() << std::endl;
-		m_pClients.erase(p);
 	}
 
 	void start() {
@@ -51,6 +50,12 @@ public:
 		}
 		std::cout << "After CallBackClient num: " << m_pClients.size() << std::endl;
 	}
+
+	void destroyCB(std::shared_ptr<Client> &p)
+	{
+		m_pClients.erase(p);
+	}
+	
 
 	std::set<std::shared_ptr<Client>> m_pClients;
 };
@@ -71,6 +76,10 @@ int main()
 		server.m_pClients.insert(it);
 	}
 	server.start();
+
+	server.destroyCB(std::make_shared<Client>());
+
+	system("pause");
 
     return 0;
 }
